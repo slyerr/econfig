@@ -1,0 +1,6 @@
+###
+PUT http://localhost:8077/rest/v1/config/
+
+{
+  "k": "v1"
+}

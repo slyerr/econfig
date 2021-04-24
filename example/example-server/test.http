@@ -1,0 +1,22 @@
+###
+GET http://localhost:8088/rest/v1/config/test
+
+###
+PUT http://localhost:8088/rest/v1/config/test
+
+{
+  "k": "v1"
+}
+
+###
+DELETE http://localhost:8088/rest/v1/config/test
+
+###
+PUT http://localhost:8088/rest/v1/host/test
+
+{
+  "port": 8078
+}
+
+###
+DELETE http://localhost:8088/rest/v1/host/test/127.0.0.1:8078
